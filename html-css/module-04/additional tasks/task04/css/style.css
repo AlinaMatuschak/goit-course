@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(255, 248, 184);
+    font-family: 'Playfair Display', serif;
+}
+
+.list {
+    margin: 0px;
+}

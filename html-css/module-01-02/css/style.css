@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    background: rgb(219, 172, 233);
+    display: inline-block;
+    flex-flow: column;
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    padding: 30px 0px;
+    margin: 0px;
+    width: 100%;
+    background: rgb(186, 24, 226);
+    tab-size: 40px;
+    vertical-align: middle;
+}
+
+.list {
+    list-style: none;
+    margin: 0px;
+    text-transform: uppercase;
+
+}
+
+.list-link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.list-link:hover {
+    color: blue;
+}

@@ -1,0 +1,34 @@
+html {
+    box-sizing: border-box;
+    background: hsl(170, 67%, 85%);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.list {
+    padding: 0px 25px;
+    min-width: 1150px;
+    text-align: center;
+    list-style: none;
+    background-color: #333;
+}
+
+.list-item:nth-child(3n) {
+    background: #0D5D56;
+}
+
+.list-item:nth-child(3n-1) {
+    background: #5DB7DE;
+}
+
+.list-item:nth-child(3n-2) {
+    background: #88292F;
+}
+
+.list-item {
+    color: #0E1116;
+}

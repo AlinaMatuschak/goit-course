@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(255, 248, 184);
+    font-family: 'Playfair Display', serif;
+}
+
+.title {
+    text-align: center;
+    background: rgb(151, 153, 23);
+    margin: 0px;
+}
+
+.list {
+    margin: 0px;
+}
+
+.list-title {
+    margin: 0px;
+}
+
+.list-box {
+    margin: 0px;
+    background: rgb(164, 190, 48);
+}
+
+.list-point, .list-indent {
+    display: inline-block;
+}
+
+.list1 {
+    margin: 0px;
+    font-size: 25px;
+    width: 35px;
+    padding: 10px;
+    background: rgb(143, 14, 160);
+}
+.list2 {
+    margin: 0px;
+    font-size: 25px;
+    width: 35px;
+    padding: 10px;
+    background: rgb(26, 73, 175);
+}
+
+.list3 {
+    margin: 0px;
+    font-size: 25px;
+    width: 35px;
+    padding: 10px;
+    background: rgb(12, 110, 9);
+}

@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wraper {
+    width: 479px;
+    border: 2px #555;
+    text-align: center;
+    margin: 0px 0px 0px 250px;
+}
+.card {
+    display: inline-block;
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.card-subtitle {
+    text-align: left;
+    font-size: 17px;
+    color: rgb(131, 130, 130);
+    text-transform: uppercase;
+}
+
+.card-title {
+    text-align: left;
+    font-size: 30px;
+    color: #555;
+}
+
+.card-description {
+    color: #555;
+    text-align: justify;
+}

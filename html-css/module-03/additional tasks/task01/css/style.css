@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.list {
+    padding: 0px 25px;
+    min-width: 1150px;
+    text-align: center;
+    list-style: none;
+    background-color: #333;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+.list-link {
+    display: block;
+    padding: 20px 50px;
+    color: brown;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+
+.list-link:hover {
+    color: blue;
+}

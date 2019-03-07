@@ -1,0 +1,421 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.conteiner-menu {
+    width: 100%;
+}
+
+.head{
+    height: 30px;
+    line-height: 30px;
+    margin: 15px 15px 70px;
+}
+.logo {
+    float: left;
+}
+.list {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+    width: 896px;
+    text-align: right;
+    list-style: none;
+}
+
+.list-item {
+    display: inline-block;
+}
+
+.list-link {
+    min-width: 130px;
+    padding: 0px 20px;
+    color: #515151;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.list-link:hover {
+    color: #1abc9c;
+}
+
+main {
+    text-transform: uppercase;
+    margin-top: -40px;
+}
+
+.conteiner-img {
+    width: 100%;
+    background: #e9f0fd;
+    position: relative;
+    height: 600px;
+    display: block;
+}
+
+.img01 {
+    width: 100%;
+    height: 600px;
+}
+
+.carrier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.button1 {
+    display: block;
+    width: 95px;
+    height: 95px;
+    background: rgb(78, 198, 171);
+    opacity: 0.651;
+    cursor: pointer;
+    border: 0px;
+    margin: 15px;
+    padding-left: 25px;
+    position: absolute;
+    top: 225px;
+    left: 5%;
+    z-index: 15;
+}
+
+.button2 {
+    display: inline-block;
+    width: 95px;
+    height: 95px;
+    background: rgb(78, 198, 171);
+    opacity: 0.651;
+    cursor: pointer;
+    border: 0px;
+    margin: 15px;
+    padding-right: 25px;
+    position: absolute;
+    top: 225px;
+    right: 5%;
+    z-index: 15;
+}
+
+.arrow1 {
+    display: inline-block;
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 15px;
+    margin: 0px;
+    transform: rotate(135deg);
+}
+
+.arrow2 {
+    display: inline-block;
+    border-right: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 15px;
+    margin: 0px;
+    transform: rotate(320deg);
+}
+
+.button1:hover, .button2:hover {
+    opacity: 1;
+}
+
+.inf {
+    display: inline-block;
+    z-index: 10;
+    color: #ffffff;
+    padding: 0px 40px;
+    position: absolute;
+    top: 210px;
+    left: 17%;
+    font-family: sans-serif;
+}
+
+.inf-title {
+    font-size: 50px;
+    margin: 25px 0px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.conteiner {
+    width: 100%;
+    background: #e9f0fd;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: #515151;
+    text-transform: uppercase;
+    margin: 0px 0px 70px;
+    font-family: sans-serif;
+}
+
+.title::after {
+    content: "";
+    width: 160px;
+    height: 5px;
+    background-color: #1abc9c;
+    display: block;
+    margin: 10px auto;
+}
+
+.margin {
+    margin: 0px 0px 60px;
+}
+.content {
+    float: left;
+    overflow: hidden;
+    margin: 0px 15px 30px;
+    cursor: pointer;
+    width: 255px;
+    height: 322px;
+}
+
+.hover:hover > div > p{
+    background: #1abc9c;
+}
+
+.hover:hover > div > .content-inf-price{
+    background: #7fd9c7;
+}
+
+.content:hover > div {
+    background: #1abc9c;
+}
+
+.content-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.content-img {
+    display: block;
+    width: 100%;
+}
+  
+.content-shadow {
+    width: 231px;
+    height: 260px;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    z-index: -1;
+}
+
+.hover:hover .content-shadow {
+    z-index: 10;
+}
+
+.hover:hover .content-icon {
+    z-index: 20;
+}
+
+.content-icon {
+    width: 170px;
+    height: 110px;
+    opacity: 1;
+    position: absolute;
+    top: 85px;
+    left: 42px;
+    z-index: -1;
+    font-family: sans-serif;
+}
+
+.content-icon1 {
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    padding: 11px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 30;
+}
+
+.content-icon1:hover {
+    border: 1px solid #1abc9c;
+    background: #1abc9c;
+    opacity: 1;
+}
+
+.content-icon2 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    padding: 11px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 30;
+}
+
+.content-icon2:hover {
+    border: 1px solid #1abc9c;
+    background: #1abc9c;
+    opacity: 1;
+}
+
+.content-icon3 {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    margin: 0px;
+    background: rgb(0, 0, 0);
+    opacity: 0.5;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    padding: 11px;
+    padding-top: 5px;
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    z-index: 30;
+}
+
+.content-icon3:hover {
+    border: 1px solid #1abc9c;
+    background: #1abc9c;
+    opacity: 1;
+}
+
+.content-icon4 {
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0.616);
+    margin: 0px;
+    background: #323232;
+    opacity: 1;
+    height: 50px;
+    line-height: 50px;
+    min-width: 170px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 30;
+}
+
+.icon4 {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.content-icon4-txt {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.678);
+    position: absolute;
+    font-size: 15px;
+    top: -16px;
+    left: 60px;
+    z-index: 40;
+    text-transform: uppercase;
+}
+
+.content-icon4:hover {
+    border: 1px solid #1abc9c;
+    background: #1abc9c;
+}
+
+.content-icon4:hover > .content-icon4-txt {
+    border: 0px solid #1abc9c;
+    background: #1abc9c;
+}
+
+.content-icon4-txt:hover {
+    border: 0px solid #1abc9c;
+    background: #1abc9c;
+}
+
+.content-inf-txt {
+    display: inline-block;
+    min-width: 200px;
+    min-height: 40px;
+    margin: 0px;
+    margin-right: -4px;
+    padding: 10px;
+    color: #ffffff;
+    background: #323232;
+    font-family: sans-serif;
+}
+
+.content-inf-price {
+    display: inline-block;
+    text-align: center;
+    min-width: 54px;
+    min-height: 41px;
+    line-height: 40px;
+    background: #8c8c8c;
+    margin: 0px;
+    margin-top: -1px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+footer {
+    width: 100%;
+    background: #323232;
+    margin-top: -15px;
+}
+
+.cart {
+    min-height: 85px;
+    line-height: 85px;
+    text-align: center;
+}
+
+.cart-txt {
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.cart-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #46bfa9;
+}
