@@ -215,11 +215,14 @@ main {
 .content-wrapper {
     position: relative;
     overflow: hidden;
+    padding: 0px;
 }
 
 .content-img {
     display: block;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
   
 .content-shadow {
@@ -231,6 +234,8 @@ main {
     top: 10px;
     left: 11px;
     z-index: -1;
+    margin: 0px;
+    padding: 0px;
 }
 
 .hover:hover .content-shadow {
@@ -370,6 +375,11 @@ main {
 .content-icon4-txt:hover {
     border: 0px solid #1abc9c;
     background: #1abc9c;
+}
+
+.content-inf {
+    margin: 0px;
+    padding: 0px;
 }
 
 .content-inf-txt {
