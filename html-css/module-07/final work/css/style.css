@@ -235,7 +235,7 @@ input {
   box-sizing: border-box;
   display: block;
   outline-offset: -2px;
-  transition: outline-color 40s;
+  transition: outline-color 30s;
   border: none;
   box-shadow: none;
   vertical-align: middle;
@@ -251,6 +251,7 @@ input[name="name"]:focus:invalid {
 }
 
 input[type="email"]:focus:valid,
+textarea[name="textarea-text"]:focus:valid,
 input[name="name"]:focus:valid {
   outline-color: green;
   transition: outline-color 4s;
@@ -273,7 +274,7 @@ input[name="name"]:focus:valid {
   box-shadow: none;
   resize: none;
   outline-offset: -2px;
-  transition: outline-color 40s;
+  transition: outline-color 30s;
   border-radius: 5px;
 }
 
