@@ -273,7 +273,7 @@ input[name="name"]:focus:valid {
   box-shadow: none;
   resize: none;
   outline-offset: -2px;
-  transition: outline-color 50s;
+  transition: outline-color 40s;
   border-radius: 5px;
 }
 
