@@ -27,7 +27,3 @@
     url("./DroidSerif-Italic-webfont.woff2") format("woff2"),
     url("./DroidSerif-Italic-webfont.woff") format("woff");
 }
-
-body {
-  background: #666666;
-}
