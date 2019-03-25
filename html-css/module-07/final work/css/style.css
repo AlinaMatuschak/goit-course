@@ -9,7 +9,7 @@
   box-sizing: inherit;
 }
 
-@import url("/html-css/css/fonts.css");
+@import url("..../css/fonts.css");
 
 main {
   width: 950px;
@@ -78,7 +78,7 @@ main {
 
 .title {
   text-transform: uppercase;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 40px;
   margin-bottom: 0px;
@@ -105,7 +105,7 @@ main {
 }
 
 .service-title {
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 18px;
 }
@@ -199,7 +199,7 @@ footer {
 
 .submit {
   color: rgb(255, 255, 255);
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
@@ -223,12 +223,12 @@ footer {
 
 input::placeholder {
   color: rgb(187, 187, 187);
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  padding-left: 14px;
+  padding-left: 0;
 }
 
 input {
@@ -242,6 +242,7 @@ input {
   outline: 4px solid transparent;
   padding-top: 0;
   padding-bottom: 0;
+  padding-left: 20px;
 }
 
 input[type="email"]:focus:invalid,
@@ -262,14 +263,14 @@ input[name="name"]:focus:valid {
   height: 210px;
   box-sizing: border-box;
   display: block;
-  font-family: "Montserrat", serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   outline: 4px solid transparent;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 18px;
+  padding-left: 20px;
   border: none;
   box-shadow: none;
   resize: none;
@@ -279,8 +280,8 @@ input[name="name"]:focus:valid {
 }
 
 .textarea-text::placeholder {
-  padding-left: 14px;
-  padding-top: 14px;
+  padding-left: 0;
+  padding-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
   color: rgb(187, 187, 187);
