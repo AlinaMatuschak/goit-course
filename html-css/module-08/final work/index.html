@@ -8,13 +8,17 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="conteiner-fluid">
-      <div class="coiteinet-header">
+    <header class="container-fluid">
+      <div class="containet-header">
         <div class="clearfix">
           <nav>
             <ul class="list">
-              <a class="list-link" href="#">Log in</a>
-              <a class="list-link" href="#">Sign up</a>
+              <li class="list-item">
+                <a class="list-link" href="#">Log in</a>
+              </li>
+              <li class="list-item">
+                <a class="list-link" href="#">Sign up</a>
+              </li>
             </ul>
           </nav>
           <a class="lg" href="#">URLAUBSGLÜCK</a>
@@ -33,49 +37,56 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="containet-main">
       <h3 class="title-main">
         Meet a partner for your best holiday
       </h3>
-      <section class="partners">
-        <article class="partner mrg-left">
-          <img class="partner-img" src="./img/bradley.png" alt="Bradley" />
-          <a class="partner-name" href="#">Bradley Hunter</a>
-          <p class="partner-inf">
-            Based in Chicago. I love playing <br />
-            tennis and loud music.
-          </p>
-        </article>
+      <article class="partners">
+        <section class="partner mrg-left">
+          <a class="partner-link" href="#">
+            <img class="partner-img" src="./img/bradley.jpg" alt="Bradley" />
+            <h4 class="partner-name" href="#">Bradley Hunter</h4>
+            <p class="partner-inf">
+              Based in Chicago. I love playing tennis and loud music.
+            </p>
+          </a>
+          <a class="partner-link" href="#"><img class="icon" src="./img/icon-tv.png" alt="tv"></a>
+        </section>
 
-        <article class="partner order1 mrg-left">
-          <img class="partner-img" src="./img/lucas.png" alt="Lucas" />
-          <a class="partner-name" href="#">Lucas Marsha</a>
-          <p class="partner-inf">
-            I get my inspiration from nature <br />
-            and objects around me. I have a <br />
-            passion to colors,typography and <br />
-            skateboards.
-          </p>
-        </article>
+        <section class="partner order1 mrg-left">
+          <a class="partner-link" href="#">
+            <img class="partner-img" src="./img/lucas.jpg" alt="Lucas" />
+            <h4 class="partner-name" href="#">Lucas Marsha</h4>
+            <p class="partner-inf">
+              I get my inspiration from nature and objects around me. I have a
+              passion to colors,typography and skateboards.
+            </p>
+          </a>
+          <a class="partner-link" href="#"><img class="icon" src="./img/icon-chemical.png" alt="chemical"></a>
+        </section>
 
-        <article class="partner mrg-right">
-          <img class="partner-img" src="./img/heather.png" alt="Heather" />
-          <a class="partner-name" href="#">Heather Walker</a>
-          <p class="partner-inf">
-            I'm a happy person that loves cats <br />
-            and climbing on mountains.
-          </p>
-        </article>
+        <section class="partner mrg-right">
+          <a class="partner-link" href="#">
+            <img class="partner-img" src="./img/heather .jpg" alt="Heather" />
+            <h4 class="partner-name" href="#">Heather Walker</h4>
+            <p class="partner-inf">
+              I'm a happy person that loves cats and climbing on mountains.
+            </p>
+          </a>
+          <a class="partner-link" href="#"><img class="icon" src="./img/icon-tea.png" alt="tea"></a>
+        </section>
 
-        <article class="partner order2 mrg-right">
-          <img class="partner-img" src="./img/hunter.png" alt="Bradley" />
-          <a class="partner-name" href="#">Bradley Hunter</a>
-          <p class="partner-inf">
-            Based in Chicago. I love playing <br />
-            tennis and loud music.
-          </p>
-        </article>
-      </section>
+        <section class="partner order2 mrg-right">
+          <a class="partner-link" href="#">
+            <img class="partner-img" src="./img/hunter.jpg" alt="Bradley" />
+            <h4 class="partner-name" href="#">Bradley Hunter</h4>
+            <p class="partner-inf">
+              Based in Chicago. I love playing tennis and loud music.
+            </p>
+          </a>
+          <a class="partner-link" href="#"><img class="icon" src="./img/icon-fly.png" alt="fly"></a>
+        </section>
+      </article>
       <button class="button button--main">
         See other partners
       </button>
