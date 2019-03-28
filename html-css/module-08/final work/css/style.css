@@ -288,9 +288,14 @@
 
   .partners {
     justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   .partner {
+    width: 220px;
+  }
+
+  .partner-inf {
     width: 220px;
   }
 
