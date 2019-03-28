@@ -1,0 +1,273 @@
+@import url("../fonts/fonts.css");
+
+:root {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*----------------------------#header----------------------*/
+.conteiner-fluid {
+  height: 540px;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 4rem;
+}
+
+.coiteinet-header {
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0rem;
+  padding-top: 1.25rem;
+  margin-bottom: 7rem;
+  margin-top: 0rem;
+}
+
+.list-link {
+  display: inline-block;
+  width: 85px;
+  height: 2rem;
+  color: #ffffff;
+  border: 3px solid transparent;
+  border-radius: 1rem;
+  text-decoration: none;
+  text-align: center;
+  tab-size: 14px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.list-link:hover {
+  border: 3px solid #ffffff;
+}
+
+.list-link:active {
+  border: 3px solid #ff4e50;
+}
+
+.wrp-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #ffffff;
+  text-align: center;
+}
+
+.lg {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 2.3rem;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.title-header {
+  margin: 0rem;
+  font-size: 29px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitle-header {
+  display: block;
+  margin: 1rem auto;
+  font-size: 18px;
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  width: 16rem;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  height: 2.5rem;
+  width: 17rem;
+  border: 3px solid #ff4e50;
+  border-radius: 1rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.button--header {
+  color: #ffffff;
+  background: #ff4e50;
+}
+
+.button--header:hover {
+  color: #ff4e50;
+  background: #ffffff;
+}
+
+/*-----------------------#main--------------------------*/
+
+main {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.title-main {
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  width: 17rem;
+}
+
+.partners {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+
+.partner {
+  width: 18rem;
+}
+
+.partner-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.partner-name {
+  text-decoration: none;
+  color: #000000;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.partner-inf {
+  font-family: "Roboto Slab";
+  font-weight: 300;
+  font-size: 14px;
+  color: #a3a3a3;
+}
+
+.button--main {
+  color: #ff4e50;
+  background: #ffffff;
+}
+
+.button--main:hover {
+  color: #ffffff;
+  background: #ff4e50;
+}
+
+@media (min-width: 600px) {
+  .partner {
+    width: 24rem;
+  }
+}
+
+@media (min-width: 748px) {
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .conteiner-fluid {
+    height: 700px;
+    background-image: url(../img/header-bg@tablet.jpg);
+  }
+
+  .list {
+    float: right;
+    margin-bottom: 9.5rem;
+    margin-right: 2.75rem;
+  }
+
+  .lg {
+    float: left;
+    margin-left: 2.75rem;
+    margin-top: 1.3rem;
+  }
+
+  .title-header {
+    font-size: 52px;
+  }
+
+  .subtitle-header {
+    font-size: 24px;
+    width: 30rem;
+    margin: 2rem auto;
+  }
+
+  .title-main {
+    font-size: 20px;
+    width: 30rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .partner {
+    width: 246px;
+    order: 0;
+  }
+
+  .order1 {
+    order: 1;
+  }
+
+  .order2 {
+    order: 2;
+  }
+
+  .mrg-left {
+    margin-left: 4rem;
+  }
+
+  .mrg-right {
+    margin-right: 4rem;
+  }
+}
+
+@media (min-width: 940px) {
+  .conteiner-fluid {
+    background-image: url(../img/header-bg@desktop.jpg);
+  }
+
+  .list {
+    margin-right: 0rem;
+  }
+
+  .lg {
+    margin-left: 0rem;
+  }
+
+  .partners{
+    justify-content: space-between;
+  }
+
+  .partner {
+    width: 220px;
+  }
+
+  .mrg-left {
+    margin-left: 0rem;
+  }
+
+  .mrg-right {
+    margin-right: 0rem;
+  }
+}
