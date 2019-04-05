@@ -1,0 +1,170 @@
+@import url("../fonts/fonts.css");
+
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid {
+  height: 540px;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.link {
+  border: 3px solid transparent;
+  border-radius: 1rem;
+  tab-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 24px;
+}
+
+.link:hover {
+  border: 3px solid #fff !important;
+}
+
+.logo-wrp {
+  padding-top: 8px;
+}
+
+.title-header {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.subtitle-header {
+  font-size: 18px;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  width: 16rem;
+}
+
+.button {
+  height: 2.5rem;
+  width: 17rem;
+  border: 3px solid #ff4e50;
+  border-radius: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.button--header {
+  background: #ff4e50;
+}
+
+.button--header:hover {
+  color: #ff4e50;
+  background: #fff;
+}
+
+.title-main {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  width: 290px;
+  color: #333;
+}
+
+.partner {
+  width: 300px;
+}
+
+.partner-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.p-link {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 85px;
+  right: calc(57% - 1in);
+}
+
+.partner-name {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.partner-inf {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #a3a3a3;
+  width: 236px;
+}
+
+.button--main {
+  color: #ff4e50;
+  background: #fff;
+}
+
+.button--main:hover {
+  color: #fff;
+  background: #ff4e50;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    height: 700px;
+    background-image: url(../img/header-bg@tablet.jpg);
+  }
+
+  .title-header {
+    font-size: 52px;
+  }
+
+  .subtitle-header {
+    font-size: 24px;
+    width: 30rem;
+  }
+
+  .title-main {
+    font-size: 20px;
+    width: 30rem;
+  }
+
+  .icon {
+    top: 99px;
+    right: 53px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-fluid {
+    background-image: url(../img/header-bg@desktop.jpg);
+  }
+
+  .partner-inf {
+    width: 220px;
+  }
+
+  .partner {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .icon {
+    top: 99px;
+    right: 73px;
+  }
+}
