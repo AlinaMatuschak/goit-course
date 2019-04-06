@@ -93,7 +93,7 @@
 .icon {
   position: absolute;
   top: 85px;
-  right: calc(57% - 1in);
+  right: calc(57% - 0.9in);
 }
 
 .partner-name {
@@ -108,7 +108,7 @@
   font-weight: 300;
   font-size: 14px;
   color: #a3a3a3;
-  width: 236px;
+  width: 224px;
 }
 
 .button--main {
@@ -142,8 +142,12 @@
   }
 
   .icon {
-    top: 99px;
-    right: 53px;
+    top: 84px;
+    right: 52px;
+  }
+
+  .partner {
+    min-width: 268px;
   }
 }
 
@@ -152,19 +156,18 @@
     background-image: url(../img/header-bg@desktop.jpg);
   }
 
-  .partner-inf {
-    width: 220px;
+  .partner {
+    min-width: 240px;
   }
 
-  .partner {
-    width: 220px;
+  .icon {
+    right: 36px;
   }
 }
 
 @media (min-width: 1200px) {
 
   .icon {
-    top: 99px;
-    right: 73px;
+    right: 59px;
   }
 }
