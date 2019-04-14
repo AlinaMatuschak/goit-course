@@ -186,7 +186,7 @@
       justify-content: space-around;
 }
 
-.section__article {
+.article {
   width: 380px;
   margin-bottom: 90px;
   display: -webkit-box;
@@ -194,12 +194,12 @@
   display: flex;
 }
 
-.section__img--wrp {
+.article__img--wrp {
   width: 170px;
   text-align: center;
 }
 
-.section__text {
+.article__text {
   color: #999999;
 }
 
