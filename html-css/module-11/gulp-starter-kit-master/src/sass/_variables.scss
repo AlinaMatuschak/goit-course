@@ -1,0 +1,22 @@
+$white: #fff;
+$orange: #e78182;
+$peachy: #f38181;
+$yellow: #fce38a;
+$mustard: #edd587;
+$gray: #e7e7e7;
+
+@mixin kaushan-script($font-weight) {
+      font-family: "Kaushan Script", sans-serif;
+      font-weight: $font-weight;
+}
+
+@mixin montserrat($font-weight) {
+      font-family: "Montserrat", sans-serif;
+      font-weight: font-weight;
+}
+
+%roboto {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
